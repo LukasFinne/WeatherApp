@@ -1,15 +1,6 @@
 # Weather App
 
 This is a Kotlin Multiplatform project targeting Desktop (JVM).
-
-
-
-## My Thoughts (In Swedish)
-Det här är en applikation för att kolla upp vädret för en stad, byggt med Kotlin Multiplatform. Det primära målet var att skapa en modern och hållbar applikation genom att dela den centrala affärslogiken och datalageret över olika plattformar såsom Desktop och Android(Idag, supportas bara Desktop) och samtidigt använda samma användargränssnitt.
-
-Projekt har 3 olika lager för att separera logiken mellan komponenterna vilket leder till bättre flexibilitet och testbarhet samt så blir det smidigare att vidareutveckla nya funktion i framtiden. Så appen består utav ett UI-lager (Compose multiplatform), ViewModel-Lager (Main ViewModel) och ett Data-lager(WeatherRepository). 
-
-
 ## Development
 
 ### Project Dependencies
